@@ -8,9 +8,15 @@ This is a multi module Android app made for XPayBack Interview screening, It con
 It improves the code readability as well as increases the hot build time significantly.
 
 ## Screenshots
+<img width="200" alt="image" src="https://github.com/adarsh-dhakad/xpayback/assets/58937745/cacdd262-785e-4af3-bc9a-db372e14d695">
 
+<img width="200" alt="image" src="https://github.com/adarsh-dhakad/xpayback/assets/58937745/f44831a2-2e47-408d-991b-8d09f20563fa">
 
 ## Video Demo
+
+
+https://github.com/adarsh-dhakad/xpayback/assets/58937745/e2f6f81f-2aa3-43d3-ab77-42aa44959d3a
+
 
 
 ## Technologies Used
