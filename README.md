@@ -37,7 +37,7 @@ The app has been thoroughly tested to ensure its functionality and stability in 
 
 ## APK Download
 
-You can download the APK of the app using the following link:
+You can download the APK of the app using the following link: https://drive.google.com/file/d/1oYLk16kvBj7Utw6j0z1A9hZ9KX44_cvz/view?usp=sharing
 
 Please make sure to enable installation from unknown sources in your device settings to install the APK.
 
