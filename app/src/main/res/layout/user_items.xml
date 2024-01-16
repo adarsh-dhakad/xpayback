@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/userImage"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_centerVertical="true"
+            android:background="@color/image_background"
+            android:contentDescription="@string/image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:scaleType="centerCrop"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:fontFamily="@font/cabin"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/userMobileNumber"
+            app:layout_constraintEnd_toStartOf="@+id/bloodGroup"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="User Name" />
+
+        <TextView
+            android:id="@+id/userMobileNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:fontFamily="@font/cabin"
+            android:maxLines="1"
+            android:textColor="@color/grey_bold"
+            app:layout_constraintBottom_toTopOf="@+id/userEmail"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintTop_toBottomOf="@+id/userName"
+            tools:text="Mobile Number" />
+
+        <ImageView
+            android:id="@+id/ivEmail"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_email"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintTop_toBottomOf="@+id/userMobileNumber"
+            />
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cabin"
+            android:maxLines="1"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/ivEmail"
+            app:layout_constraintTop_toTopOf="@id/ivEmail"
+            app:layout_constraintBottom_toBottomOf="@id/ivEmail"
+            tools:text="dhakadadarsh1@gmail.com" />
+
+        <ImageView
+            android:id="@+id/ivAddress"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/baseline_add_location_24"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivEmail"
+            />
+
+        <TextView
+            android:id="@+id/userAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cabin"
+            android:maxLines="2"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/ivAddress"
+            app:layout_constraintBottom_toBottomOf="@id/ivAddress"
+            app:layout_constraintTop_toTopOf="@id/ivAddress"
+            tools:text="telecom nagar Gachibowali" />
+
+
+        <TextView
+            android:id="@+id/bloodGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_round_background"
+            android:fontFamily="@font/cabin"
+            android:maxLines="2"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:textColor="@color/light_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="bloodGroup: A-" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

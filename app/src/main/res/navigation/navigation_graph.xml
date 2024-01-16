@@ -1,0 +1,28 @@
+<!-- res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/listUserFragment">
+
+    <fragment
+        android:id="@+id/listUserFragment"
+        android:name="adarsh.xpayback.listusers.ui.ListUserFragment"
+        android:label="List Products"
+        tools:layout="@layout/fragment_list_user" >
+        <action
+            android:id="@+id/action_listProductFragment_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/userDetailsFragment"
+        android:name="adarsh.xpayback.userdeatils.ui.UserDetailsFragment"
+        android:label="Add Product"
+        tools:layout="@layout/fragment_user_details" >
+        <action
+            android:id="@+id/action_addProductFragment_to_listProductFragment"
+            app:destination="@id/listUserFragment" />
+    </fragment>
+
+</navigation>

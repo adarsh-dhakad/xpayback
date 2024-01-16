@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_bold">#8D949E</color>
+    <color name="light_grey">#F2F3F5</color>
+    <color name="background">#6200EE</color>
+    <color name="light_black">#263238</color>
+    <color name="prime_color">#304FFE</color>
+    <color name="image_background">#e6e5e6</color>
+    <color name="gray_primary">#1D1D1F</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="brandColorShadow">#E9EEFF</color>
+    <color name="brandColorLighter">#E9EEFF</color>
+    <color name="brandColor">#304FFE</color>
+    <color name="borderColor">#E3E8EE</color>
+    <color name="highLightColor">#D4DDFF</color>\
+    <color name="gray_secondary">#697386</color>
+</resources>
